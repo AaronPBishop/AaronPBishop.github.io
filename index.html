@@ -11,6 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/6681cd55c5.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -19,9 +23,9 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
+							<li><a href="#intro">About Me</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">Skills</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
 					</nav>
@@ -34,11 +38,11 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Aaron Bishop</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1 style="font-family: Orbitron; font-size: 3.5em; color: rgb(0, 255, 125); letter-spacing: 0.4vw;">Aaron Bishop</h1>
+							<p style="color: rgb(0, 225, 255)">I'm a skilled developer in constant pursuit of the ultimate outlet for their engineering propensity, who has been mastering the ability to manipulate and abstract away complex data structures since the beginning of my programming journey. With a strong foundation in multiple programming languages and frameworks, I have a track record of going above and beyond to design and develop engaging software applications that exceed standards.</p>
+							<p style="color: rgb(0, 225, 255)">Programming gives me the ability to express the logical and creative sides of my brain equally, which is why I'm so passionate about it! I love to go above and beyond to build, fix, and contribute to applications that bring captivating, seamless experiences.</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#one" class="button scrolly">My Projects</a></li>
 							</ul>
 						</div>
 					</section>
@@ -49,10 +53,10 @@
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>ThesaRush</h2>
+									<p>Unique arcade-style multiplayer word game with various complex game-play mechanics and engaging skill-based rewards that features optimized randomly dropped letter components that are animated in intervals, challenging players to race against the clock to form words that are validated against a comprehensive dictionary upon submission and cleared if valid.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://thesarush.onrender.com" class="button" target="blank">Visit</a></li>
 									</ul>
 								</div>
 							</div>
@@ -61,10 +65,10 @@
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Buzz</h2>
+									<p>Asynchronous full-stack Slack inspired messaging application that was collaboratively built and deployed alongside two team-mates using React and Redux for frontend state management.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://buzz-vxv2.onrender.com/" class="button" target="blank">Visit</a></li>
 									</ul>
 								</div>
 							</div>
@@ -73,10 +77,46 @@
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Bishop-BnB</h2>
+									<p>Full-stack Airbnb inspired application that enables homeowners to easily list and rent out their properties to travelers.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://bishop-bnb.onrender.com" class="button" target="blank">Visit</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Bishop-Thesaurus</h2>
+									<p>Thesaurus application built with React that parses user input and utilizes hooks and context to make AJAX requests to the official web dictionary API. Renders elegant JSX list elements and recursively searches for valid anagrams.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/AaronPBishop/Bishop-Thesaurus" class="button" target="blank">Visit</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>BitGo</h2>
+									<p>In-browser Binary Sudoku game that utilizes an optimized recursive algorithm to randomly generate solvable binary matrices.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/AaronPBishop/BitGo" class="button" target="blank">Visit</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic06.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>StarFleets</h2>
+									<p>Outrun themed battleship-like browser-game that generates a random array of valid ship positions, which is looped over and appended to the DOM using vanilla JavaScript. User score data is persisted in session-storage.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/AaronPBishop/StarFleets" class="button" target="blank">Visit</a></li>
 									</ul>
 								</div>
 							</div>
@@ -86,43 +126,106 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Skills and Technologies</h2>
+							<p></p>
 							<div class="features">
 								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-square-js fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">JavaScript</h3>
+									</div>
+									
+									<p>Client-side programming language used to add dynamic functionality and interactivity to web pages.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-react fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">React</h3>
+									</div>
+									
+									<p>Library used for building reusable components that can be leveraged to design complex interfaces and manage application state.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-hard-drive fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Redux</h3>
+									</div>
+									
+									<p>Framework for managing application state in a predictable and centralized way, making it easier to develop and maintain complex applications.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-server fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Express</h3>
+									</div>
+									
+									<p>Minimal and flexible Node.js web framework that provides a robust set of features for building backend applications.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-database fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Sequelize</h3>
+									</div>
+									
+									<p>Promise-based ORM that provides easy access to relational databases in order to perform common database operations.</p>
 								</section>
 								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-node fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Node.js</h3>
+									</div>
+									
+									<p>Node.js enables server-side JavaScript execution and is widely used for building server-side applications, command-line tools, and desktop applications.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-python fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Python</h3>
+									</div>
+									
+									<p>Popular high-level programming language that offers a large and comprehensive standard library which make it a versatile and powerful language for a wide range of applications.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-server fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">Flask</h3>
+									</div>
+									
+									<p>Lightweight and flexible web framework for building web applications in Python which provides tools and libraries for routing requests, handling HTTP requests and responses, and rendering templates.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-flask-vial fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">SQLAlchemy</h3>
+									</div>
+									
+									<p>Python library used for building database-driven applications in Python and manipulating relational databases through an ORM which provides low-level SQL functionality.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-solid fa-database fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">PostgreSQL</h3>
+									</div>
+									
+									<p>Powerful and popular open-source relational database management system that provides features for storing and managing structured data and building scalable and secure database-driven applications reliably.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-html5 fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">HTML5</h3>
+									</div>
+									
+									<p>Fundamental hypertext markup technology which provides a standardized structure for rendering multimedia content in web browsers.</p>
+								</section>
+								<section>
+									<div style="display: flex; justify-content: space-between;">
+										<span class="fa-brands fa-css3-alt fa-2xl"></span>
+										<h3 style="margin-top: -1.5vh; margin-bottom: 4vh;">CSS3</h3>
+									</div>
+									
+									<p>Styling language which provides dynamic and engaging design technology that works across a range of devices and screen sizes.</p>
 								</section>
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
 
@@ -130,7 +233,6 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -156,27 +258,22 @@
 								<section>
 									<ul class="contact">
 										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<h3>Location</h3>
+											<span>Houston, TX</span>
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">aaronpbishop@gmail.com</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<span>(346) 232-5686</span>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/AaronPBishop" class="icon brands fa-github" target="blank"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/aaron-bishop-66b718229/" class="icon brands fa-linkedin-in" target="blank"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -186,15 +283,6 @@
 					</section>
 
 			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
