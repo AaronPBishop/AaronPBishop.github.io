@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Aaron Bishop</title>
@@ -13,7 +8,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/6681cd55c5.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
@@ -38,12 +33,16 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1 style="font-family: Orbitron; font-size: 3.5em; color: rgb(0, 255, 125); letter-spacing: 0.4vw;">Aaron Bishop</h1>
-							<p style="color: rgb(0, 225, 255)">I'm a skilled developer in constant pursuit of the ultimate outlet for their engineering propensity, who has been mastering the ability to manipulate and abstract away complex data structures since the beginning of my programming journey. With a strong foundation in multiple programming languages and frameworks, I have a track record of going above and beyond to design and develop engaging software applications that exceed standards.</p>
-							<p style="color: rgb(0, 225, 255)">Programming gives me the ability to express the logical and creative sides of my brain equally, which is why I'm so passionate about it! I love to go above and beyond to build, fix, and contribute to applications that bring captivating, seamless experiences.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">My Projects</a></li>
-							</ul>
+							<div id="intro-container">
+								<div id="header-root" style="display: flex; margin-top: 4vh;"></div>
+
+								<p style="color: rgb(0, 225, 255)">I'm a skilled developer in constant pursuit of the ultimate outlet for their engineering propensity, who has been mastering the ability to manipulate and abstract away complex data structures since the beginning of my programming journey. With a strong foundation in multiple programming languages and frameworks, I have a track record of going above and beyond to design and develop engaging software applications that exceed standards.</p>
+								<p style="color: rgb(0, 225, 255)">Programming gives me the ability to express the logical and creative sides of my brain equally, which is why I'm so passionate about it! I love to go above and beyond to build, fix, and contribute to applications that bring captivating, seamless experiences.</p>
+
+								<ul class="actions">
+									<li><a href="#one" id="intro-button" class="button scrolly">My Projects</a></li>
+								</ul>
+							</div>
 						</div>
 					</section>
 
@@ -62,7 +61,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Buzz</h2>
@@ -74,7 +73,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Bishop-BnB</h2>
@@ -86,7 +85,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Bishop-Thesaurus</h2>
@@ -98,7 +97,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="30% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>BitGo</h2>
@@ -110,7 +109,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic06.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/pic06.jpg" alt="" data-position="80% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>StarFleets</h2>
@@ -292,6 +291,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="module" src="components/Root.js"></script>
 	</body>
 </html>

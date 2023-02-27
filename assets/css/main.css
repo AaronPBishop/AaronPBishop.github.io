@@ -3872,12 +3872,29 @@ input, select, textarea {
 
 /* Intro */
 
+	#intro-container {
+		background: linear-gradient(rgb(15, 15, 35), rgb(10, 10, 25));
+
+		border-radius: 18px;
+
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		padding-left: 3vw;
+		padding-right: 3vw;
+
+		margin-top: -6vh;
+
+		box-shadow: 0px 0px 18px 2px rgb(90, 90, 210);
+
+		opacity: 0.97;
+	}
+
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-image: url("images/Rainbow-Vector.jpg");
+		background-position: bottom right;
+		background-size: cover;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
 	}
 
 		#intro p {
@@ -3906,4 +3923,25 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		.letter-elements {
+			font-family: 'Roboto';
+			animation: drop 0.6s;
+			animation-fill-mode: forwards;
+		  
+			position: relative;
+			top: -100vh;
+			opacity: 0;
+		}
+		
+		@keyframes drop {
+			from {
+			  top: -100vh;
+			  opacity: 0;
+			}
+			to {
+			  top: 0vh;
+			  opacity: 1;
+			}
 		}
