@@ -260,6 +260,10 @@ input, select, textarea {
 			font-size: 0.6em;
 		}
 
+		#header-img {
+			display: none;
+		}
+
 	}
 
 	sub {
@@ -3523,7 +3527,7 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
+		padding: 2.5em 2.5em 0.5em 2.5em;
 		background: #312450;
 		cursor: default;
 		height: 100vh;
@@ -3864,9 +3868,67 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#sidebar {
-				display: none;
+			#intro {
+				margin-top: 10vh;
 			}
+
+			#sidebar {
+				height: 3.5em;
+				left: 0;
+				line-height: 3.5em;
+				overflow: hidden;
+				padding: 1.2vw;
+				text-align: center;
+				top: 0;
+				width: 100%;
+			}
+
+				#sidebar > .inner {
+					-moz-flex-direction: row;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					-moz-align-items: -moz-stretch;
+					-webkit-align-items: -webkit-stretch;
+					-ms-align-items: -ms-stretch;
+					align-items: stretch;
+					height: inherit;
+					line-height: inherit;
+				}
+
+				#sidebar nav {
+					height: inherit;
+					line-height: inherit;
+				}
+
+					#sidebar nav ul {
+						display: -moz-flex;
+						display: -webkit-flex;
+						display: -ms-flex;
+						display: flex;
+						height: inherit;
+						line-height: inherit;
+						margin: 0;
+					}
+
+						#sidebar nav ul li {
+							display: block;
+							height: inherit;
+							line-height: inherit;
+							margin: 0 0 0 2em;
+							padding: 0;
+						}
+
+					#sidebar nav a {
+						height: inherit;
+						line-height: inherit;
+						padding: 0;
+					}
+
+						#sidebar nav a:after {
+							background-image: none;
+							background-color: #b74e91;
+						}
 
 		}
 
@@ -3886,12 +3948,12 @@ input, select, textarea {
 
 		box-shadow: 0px 0px 18px 2px rgb(90, 90, 210);
 
-		opacity: 0.97;
+		opacity: 0.96;
 	}
 
 	#intro {
-		background-image: url("images/Rainbow-Vector.jpg");
-		background-position: bottom right;
+		background-image: url("images/intro.svg");
+		background-position: 2vw center;
 		background-size: cover;
     	background-attachment: fixed;
     	background-repeat: no-repeat;
@@ -3923,6 +3985,25 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		#header-img {
+			background-image: url('../../images/pic07.jpg');
+			background-position: center;
+			background-size: cover;
+    		background-attachment: fixed;
+    		background-repeat: no-repeat;
+
+			box-shadow: 0px 0px 10px 2px rgb(30, 30, 80);
+
+			position: absolute;
+			top: 7vh;
+			right: 12vw;
+
+			border-radius: 100vh;
+
+			width: 12%;
+			height: 19%;
 		}
 
 		.letter-elements {

@@ -13,19 +13,29 @@ const Root = () => {
     const name = ['A', 'A', 'R', 'O', 'N', '', 'B', 'I', 'S', 'H', 'O', 'P'];
     const cols = [];
   
-    const header = document.getElementById('header-root');
+    const box1 = document.getElementById('header-box1');
+    const box2 = document.getElementById('header-box2');
   
     for (let i = 0; i < name.length; i++) {
         const newCol = document.createElement('div');
+        newCol.classList.add('columns');
 
-        newCol.style.width = '3.6vw';
-        newCol.style.height = '14vh';
-        newCol.style.margin = '0.4vw';
+        newCol.style.minWidth = '4vw';
+        newCol.style.marginRight = '0.5vw';
 
-        header.append(newCol);
+        if (i <= 5) {
+            box1.append(newCol);
 
-        newCol.id = `col${i}`;
-        cols.push(i);
+            newCol.id = `col${i}`;
+            cols.push(i);
+        }
+
+        if (i > 5) {
+            box2.append(newCol);
+
+            newCol.id = `col${i}`;
+            cols.push(i);
+        }
     };
   
     const visitedCols = [];
