@@ -19,8 +19,6 @@ const Root = () => {
     for (let i = 0; i < name.length; i++) {
         const newCol = document.createElement('div');
         newCol.classList.add('columns');
-
-        newCol.style.minWidth = '4vw';
         newCol.style.marginRight = '0.5vw';
 
         if (i <= 5) {
