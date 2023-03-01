@@ -19,7 +19,10 @@ const Root = () => {
     for (let i = 0; i < name.length; i++) {
         const newCol = document.createElement('div');
         newCol.classList.add('columns');
+        newCol.style.width = '3.6vw';
+        newCol.style.height = '7.6vh';
         newCol.style.marginRight = '0.5vw';
+        newCol.style.marginLeft = '0.5vw';
 
         if (i <= 5) {
             box1.append(newCol);

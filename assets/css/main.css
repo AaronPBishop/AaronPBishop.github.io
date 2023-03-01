@@ -3486,6 +3486,10 @@ input, select, textarea {
 				background-repeat: no-repeat;
 			}
 
+			.columns {
+				display: none;
+			}
+
 			.letter-elements {
 				display: none;
 			}
