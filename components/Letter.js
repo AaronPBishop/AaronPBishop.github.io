@@ -2,7 +2,7 @@ const Letter = (ltr, color, brdrClr, brdrRadius) => {
     const newLetter = document.createElement('div');
     const markup = `
         <div 
-        style="font-size: 1em; text-align: center; color: white; line-height: 8vh; letter-spacing: -1px; text-shadow: 0px 0px 2.5px white;">
+        style="font-size: 1.2em; text-align: center; color: white; line-height: 8vh; letter-spacing: -1px; text-shadow: 0px 0px 2.5px white;">
             ${ltr}
         </div>
     `;
@@ -12,7 +12,7 @@ const Letter = (ltr, color, brdrClr, brdrRadius) => {
     newLetter.style.backgroundColor = color;
     newLetter.style.border = `2px solid ${brdrClr}`;
     newLetter.style.borderRadius = brdrRadius;
-    newLetter.style.aspectRatio = '20 / 1';
+    newLetter.style.aspectRatio = '21 / 1';
     
     return newLetter;
 };

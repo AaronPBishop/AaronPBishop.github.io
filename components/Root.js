@@ -21,8 +21,8 @@ const Root = () => {
         newCol.classList.add('columns');
         newCol.style.width = '3.6vw';
         newCol.style.height = '7.6vh';
-        newCol.style.marginRight = '0.5vw';
-        newCol.style.marginLeft = '0.5vw';
+        newCol.style.marginRight = '0.6vw';
+        newCol.style.marginLeft = '0.6vw';
 
         if (i <= 5) {
             box1.append(newCol);
